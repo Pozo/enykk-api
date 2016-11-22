@@ -1,0 +1,16 @@
+group 'com.github.pozo'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.guava:guava:20.0'
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
